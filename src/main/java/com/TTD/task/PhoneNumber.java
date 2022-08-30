@@ -15,10 +15,10 @@ public class PhoneNumber {
         if(phoneNumber.isBlank()){
             return false;
         }
-        if(phoneNumber.length() != 11){
+        if(phoneNumber.length() != 12){
             return false;
         }
-        if(!phoneNumber.startsWith("03")){
+        if(!phoneNumber.startsWith("923")){
             return false;
         }
         if(phoneNumber.matches(".*[a-zA-Z]+.*")){
